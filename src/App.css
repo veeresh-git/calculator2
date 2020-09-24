@@ -1,0 +1,86 @@
+h1 {
+  text-align: center;
+  color: aliceblue;
+  font-family: "Kanit", sans-serif;
+}
+h3 {
+  text-align: center;
+  color: crimson;
+  font-family: "Kanit", sans-serif;
+}
+* {
+  background-color: black;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.conatiner {
+  display: block;
+  align-items: center;
+  position: absolute;
+}
+.conatiner table tbody tr td button {
+  display: block;
+  padding: 30px;
+  font-size: 19px;
+  font-family: "Kanit", sans-serif;
+  width: 100%;
+  border: none;
+  color: aliceblue;
+  border: 1px solid rgb(0, 0, 0);
+}
+.conatiner table tbody tr td button:hover {
+  border: 1px solid aliceblue;
+  border-radius: 5px;
+}
+.zero input {
+  display: block;
+  position: relative;
+  background-color: rgba(105, 105, 105, 105, 0.9);
+  color: aliceblue;
+  border: 1px solid gray;
+  border-radius: 5px;
+  height: 60px;
+  text-align: right;
+  padding: 10px;
+  font-size: 24px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+@media screen and (max-height: 500px) {
+  .conatiner table tbody tr td button {
+    padding: 15px;
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .zero input {
+    border-radius: 3px;
+    height: 40px;
+    padding: 6px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .conatiner table tbody tr td button {
+    padding: 15px;
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .zero input {
+    border-radius: 3px;
+    height: 40px;
+    padding: 6px;
+    font-size: 16px;
+  }
+}
